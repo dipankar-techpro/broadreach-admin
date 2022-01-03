@@ -12,6 +12,10 @@ export const Full_ROUTES: Routes = [
     loadChildren: () => import('../../users/users.module').then(m => m.UsersModule)
   },
   {
+    path: 'emerchant',
+    loadChildren: () => import('../../emerchant/emerchant.module').then(m => m.EmerchantModule)
+  },
+  {
     path: 'calendar',
     loadChildren: () => import('../../calendar/calendar.module').then(m => m.CalendarsModule)
   },

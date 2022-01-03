@@ -7,27 +7,20 @@
       <div class="card">
         <div class="card-content">
           <div class="card-body">
-            <!-- Nav-tabs -->
-            <ul ngbNav #nav="ngbNav" [activeId]="1" class="nav-tabs justify-content-left">
-              <li [ngbNavItem]="1">
-                <ng-template ngbNavContent>
+            <div class="row mb-4">
+                <div class="col-sm-6">
+                    <div class="profPic-view d-inline-block">
+                        <img src="assets/img/users/user_Icon.png">
+                    </div>
+                    <div class="d-inline-block mx-2">
+                        <a href="#" class="btn-custom btn-sm text-uppercase">Change Image</a>
+                    </div>
+                </div>
+            </div>
+            
                   <!-- Account content starts -->
                   <div class="mt-2" id="account">
-                    <!-- Media object starts -->
-                    <div class="media">
-                      <img src="assets/img/portrait/small/avatar-s-2.png" alt="user edit avatar"
-                        class="users-avatar-shadow avatar mr-3 rounded-circle" height="64" width="64">
-                      <div class="media-body">
-                        <!-- <h4>Avatar</h4> -->
-                        <div class="d-flex flex-sm-row flex-column justify-content-start px-0 mb-sm-2">
-                          <button class="btn btn-sm btn-primary mb-1 mb-sm-0">Upload Image</button>
-                          <button class="btn btn-sm bg-light-secondary ml-sm-2">Reset</button>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Media object ends -->
-
-                  <!-- Account form starts -->
+                    
                   <form novalidate>
                       <div class="row">
                           <div class="col-md-6">
@@ -85,7 +78,7 @@
 
                           <div class="col-12 users-module">
                               <div class="table-responsive">
-                                  <table class="table mb-0 mt-3">
+                                  <table class="table mt-3">
                                       <thead>
                                           <tr>
                                               <th>Module Permission</th>
@@ -182,20 +175,15 @@
                               </div>
                           </div>
                           <div class="col-12 d-flex flex-sm-row flex-column justify-content-end mt-3 mt-sm-2">
-                              <button type="submit" class="btn btn-primary mb-2 mb-sm-0 mr-sm-2">Save Changes</button>
-                              <button type="reset" class="btn btn-secondary">Cancel</button>
+                              <button type="submit" class="btn btn-custom mb-2 mb-sm-0 mr-sm-2">Save Changes</button>
+                              <button type="reset" class="btn btn-secondary custom">Cancel</button>
                           </div>
                       </div>
                   </form>
                   <!-- Account form ends -->
                   </div>
                   <!-- Account content ends -->
-                </ng-template>
-              </li>
-            </ul>
-            <div class="tab-content">
-              <div [ngbNavOutlet]="nav"></div>
-            </div>
+                
           </div>
         </div>
       </div>

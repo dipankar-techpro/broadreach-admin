@@ -7,16 +7,6 @@
         <div class="card">
           <div class="card-content">
             <div class="card-body">
-              <!-- Nav-tabs -->
-              <ul ngbNav #nav="ngbNav" [activeId]="1" class="nav-tabs justify-content-left">
-                <li [ngbNavItem]="1">
-                  <ng-template ngbNavContent>
-                    <!-- Account content starts -->
-                    <div class="mt-2" id="account">
-                      <!-- Media object starts -->
-                      
-  
-                    <!-- Account form starts -->
                     <form novalidate>
                         <div class="row">
                             <div class="col-md-6">
@@ -134,20 +124,13 @@
                                 </div>
                             </div>
                             <div class="col-12 d-flex flex-sm-row flex-column justify-content-end mt-3 mt-sm-2">
-                                <button type="submit" class="btn btn-primary mb-2 mb-sm-0 mr-sm-2">Save Changes</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
+                                <button type="submit" class="btn btn-custom mb-2 mb-sm-0">Create Role</button>
+                                
                             </div>
                         </div>
                     </form>
-                    <!-- Account form ends -->
-                    </div>
-                    <!-- Account content ends -->
-                  </ng-template>
-                </li>
-              </ul>
-              <div class="tab-content">
-                <div [ngbNavOutlet]="nav"></div>
-              </div>
+                    
+              
             </div>
           </div>
         </div>

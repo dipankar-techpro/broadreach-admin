@@ -21,5 +21,14 @@ export const ROUTES: RouteInfo[] = [
         ] 
       },
     ]
+  },
+  {
+    path: '', title: 'Manage eMerchant', icon: 'ft-user', class: 'has-sub', badge: '', badgeClass: '', isExternalLink: false,
+    submenu: [
+      { path: '/emerchant/create-emerchant', title: 'Create eMerchant', icon: 'ft-arrow-right submenu-icon', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
+      { path: '/emerchant/emerchant-list', title: 'eMerchant List', icon: 'ft-arrow-right submenu-icon', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
+      { path: '/emerchant/create-emerchant-user', title: 'Create eMerchant User', icon: 'ft-arrow-right submenu-icon', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
+      { path: '/emerchant/emerchant-user-list', title: 'eMerchant User list', icon: 'ft-arrow-right submenu-icon', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
+    ]
   }
 ];

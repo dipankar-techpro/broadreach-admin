@@ -1,10 +1,13 @@
 <section class="users-view">
     <!-- Media object starts -->
-    <div class="row">
+    <div class="row mb-3">
       <div class="col-12">
         <div class="content-header">User Roles Detailed View</div>
       </div>
-      
+      <div class="col-12 col-sm-12 d-flex justify-content-end align-items-center">
+        <a [routerLink]="['/users/user-roles-edit']" class="btn btn-custom mr-sm-2">Edit Role</a>
+        <a href="javaScript:void(0);" class="btn btn-secondary custom">Delete Role</a>
+      </div>
     </div>
     <!-- Media object ends -->
   
@@ -15,10 +18,7 @@
           <div class="card-content">
             <div class="card-body">
               <div class="row">
-                <div class="col-12 col-sm-12 d-flex justify-content-end align-items-center">
-                  <a [routerLink]="['/users/user-roles-edit']" class="btn btn-lg btn-primary mr-2 px-3 py-1">Edit</a>
-                  <a href="javaScript:void(0);" class="btn btn-lg bg-light-secondary px-3 py-1">Delete User</a>
-                </div>
+                
                 <div class="col-12 col-xl-4">
                     <h6>Role Name:	Senior Manager</h6>
                     <h6>Role Description:</h6>

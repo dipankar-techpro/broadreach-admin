@@ -41,9 +41,9 @@ export class CustomizerService {
     },
     {
       code: "man-of-steel",
-      class: "gradient-man-of-steel",
+      class: "bg-primary",
       active: false,
-      type: 'gradient'
+      type: 'solid'
     },
     {
       code: "purple-love",
