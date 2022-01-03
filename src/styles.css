@@ -47,6 +47,11 @@
     align-items: center;
     justify-content: center;
 }
+.btn.btn-md{
+	min-height: auto;
+	height: 47px;
+	padding: 11px 60px;
+}
 .btn.custom{
     padding: 14px 78px;
 }
@@ -75,6 +80,7 @@
 	background-color: #ccc;
 	padding: 15px;
 }
+
 .profPic-view img{
 	height: 100%;
 	width: 100%;
