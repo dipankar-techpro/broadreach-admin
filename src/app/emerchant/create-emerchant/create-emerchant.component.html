@@ -111,11 +111,8 @@
                   <div class="form-group">
                     <div class="controls">
                       <label for="">Country</label>
-                      <select class="form-control">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                      </select>
+                      <ng-select [items]="cities" bindLabel="name" placeholder="Select city" [(ngModel)]="selectedCity">
+                      </ng-select>
                     </div>
                   </div>
                 </div>

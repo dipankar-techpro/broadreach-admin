@@ -64,8 +64,14 @@
     padding: 8px 20px;
 	border-radius: 7px;
 }
-.form-control{
+.form-control,.ng-select .ng-select-container,.ng-select.ng-select-single .ng-select-container{
 	height: 50px;
+}
+.ng-select.ng-select-single .ng-select-container .ng-value-container .ng-input{
+	top:12px
+}
+.ng-dropdown-panel .ng-dropdown-panel-items .ng-option{
+	padding: 12px 10px;
 }
 .login-page .form-control{
 	height: 60px;

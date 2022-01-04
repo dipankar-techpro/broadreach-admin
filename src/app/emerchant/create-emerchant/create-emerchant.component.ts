@@ -7,6 +7,14 @@ import { NgbNavChangeEvent } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./create-emerchant.component.scss']
 })
 export class CreateEmerchantComponent implements OnInit {
+  cities = [
+    { id: 1, name: 'Vilnius' },
+    { id: 2, name: 'Kaunas' },
+    { id: 3, name: 'Pavilnys'},
+    { id: 4, name: 'Pabradė' },
+    { id: 5, name: 'Klaipėda' }
+  ];
+  
   vActive = 'top'; // Vertical Pills
   active = 1; // Basic Navs
   kActive = 1; // Keep content

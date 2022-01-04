@@ -7,6 +7,9 @@ import { CreateEmerchantUserComponent } from './create-emerchant-user/create-eme
 import { EmerchantUserDetailComponent } from './emerchant-user-detail/emerchant-user-detail.component';
 import { EmerchantUserEditComponent } from './emerchant-user-edit/emerchant-user-edit.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgSelectModule } from '@ng-select/ng-select';
+import { EmerchantListComponent } from './emerchant-list/emerchant-list.component';
+import { NgxDatatableModule } from "@swimlane/ngx-datatable";
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CreateEmerchantUserComponent,
     EmerchantUserDetailComponent,
     EmerchantUserEditComponent,
+    EmerchantListComponent,
   ],
   imports: [
     CommonModule,
     EmerchantRoutingModule,
-    NgbModule
+    NgbModule,
+    NgSelectModule,
+    NgxDatatableModule
   ]
 })
 export class EmerchantModule { }
