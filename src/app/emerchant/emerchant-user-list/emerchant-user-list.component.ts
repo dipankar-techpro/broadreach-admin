@@ -3,12 +3,11 @@ import { ColumnMode, DatatableComponent } from "@swimlane/ngx-datatable";
 import { usersListData } from "./data/user-list.data";
 
 @Component({
-  selector: 'app-emerchant-list',
-  templateUrl: './emerchant-list.component.html',
-  styleUrls: ['./emerchant-list.component.scss',
-  '../../../assets/sass/libs/datatables.scss']
+  selector: 'app-emerchant-user-list',
+  templateUrl: './emerchant-user-list.component.html',
+  styleUrls: ['./emerchant-user-list.component.scss']
 })
-export class EmerchantListComponent implements OnInit {
+export class EmerchantUserListComponent implements OnInit {
   verify = [
     { id: 1, name: 'any' },
     { id: 2, name: 'yes' },

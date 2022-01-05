@@ -7,7 +7,7 @@ export const ROUTES: RouteInfo[] = [
     path: '/dashboard', title: 'Dashboard', icon: 'ft-home', class: '', badge: '', badgeClass: 'badge badge-pill badge-danger float-right mr-1 mt-1', isExternalLink: false, submenu: []
   },
   {
-    path: '', title: 'Manage Users', icon: 'ft-user', class: 'has-sub', badge: '', badgeClass: '', isExternalLink: false,
+    path: '', title: 'Manage Users', icon: 'ft-users', class: 'has-sub', badge: '', badgeClass: '', isExternalLink: false,
     submenu: [
       { path: '/users/users-list', title: 'User List', icon: 'ft-arrow-right submenu-icon', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
       { path: '/users/users-add', title: 'Create User', icon: 'ft-arrow-right submenu-icon', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
@@ -23,7 +23,7 @@ export const ROUTES: RouteInfo[] = [
     ]
   },
   {
-    path: '', title: 'Manage eMerchant', icon: 'ft-user', class: 'has-sub', badge: '', badgeClass: '', isExternalLink: false,
+    path: '', title: 'Manage eMerchant', icon: 'ft-briefcase', class: 'has-sub', badge: '', badgeClass: '', isExternalLink: false,
     submenu: [
       { path: '/emerchant/create-emerchant', title: 'Create eMerchant', icon: 'ft-arrow-right submenu-icon', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
       { path: '/emerchant/emerchant-list', title: 'eMerchant List', icon: 'ft-arrow-right submenu-icon', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
